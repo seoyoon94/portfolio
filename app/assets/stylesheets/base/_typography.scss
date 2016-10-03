@@ -1,0 +1,9 @@
+body {
+  font: 100%/1.5 $font-stack;
+}
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-size: 3em - 0.25 * ($i - 1);
+  }
+}
